@@ -44,10 +44,10 @@ The RTL design is **Parameterized**, But for the current implementation the ram 
 # Organization
 
 ### Internal
-![[intrnl_org.png]]
+![Internal Organization](/images/intrnl_org.png)
 
 ### Top level Datapath
-![[datpth_org.png]]
+![Datapath](/images/datpth_org.png)
 
 # Full Flag
 
