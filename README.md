@@ -41,7 +41,7 @@ It is implement through a counter that generates addresses, the circular queue i
 
 The RTL design is **Parameterized**, But for the current implementation the ram is configured to be 16x8, meaning, it has 8 bit wide memory elements 16 in number. Addresses ranging from 0000 to 1111. The counter is a bit wider, since the MSBs are used to record the phase of the write pointer and read pointer, which are used to determine full and empty flags. 
 
-# Organization
+# Architecture
 
 ### Internal
 ![Internal Organization](/images/intrnl_org.png)
